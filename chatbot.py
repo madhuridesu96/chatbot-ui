@@ -12,3 +12,4 @@ while True:
     text = reply["message"]["content"]
     history.append({"role": "assistant", "content": text})
     print(f"\nAI: {text}")
+    
