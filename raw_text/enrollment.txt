@@ -1,0 +1,26 @@
+HEALTH PLAN ENROLLMENT FORM (SAMPLE)
+
+This is a synthetic, educational sample form — not a real document.
+
+Member Name: Jordan A. Sample
+
+Date of Birth: 05/14/1988
+
+Member ID: M1001
+
+Selected Plan: Gold PPO (P101)
+
+Effective Date: 01/01/2026
+
+Employer Group: Sample Corp Inc.
+
+Address: 123 Main Street, Springfield
+Phone Number: (555) 123-4567
+
+Coverage Options (check one):
+[ X ] Employee Only
+[ ] Employee + Spouse
+
+[ ] Employee + Family
+
+Signature: Date:

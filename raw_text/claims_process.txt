@@ -1,0 +1,14 @@
+How to File a Claim — Sample Process Guide
+This document is a synthetic, educational example describing a generic health insurance claims process. It does not represent any real insurance company's actual procedures.
+Step 1: Receive Services
+Visit an in-network or out-of-network provider for covered medical services. Be sure to bring your member ID card to each appointment.
+Step 2: Provider Submits the Claim
+In most cases, your healthcare provider will submit the claim directly to the insurance plan on your behalf. This typically happens within a few business days of your visit.
+Step 3: Claim Review
+The plan reviews the claim to verify eligibility, coverage, and medical necessity. Claims are generally processed within 10 to 30 business days, depending on complexity.
+Step 4: Explanation of Benefits (EOB)
+Once processed, the member receives an Explanation of Benefits (EOB) showing the billed amount, the plan's allowed amount, what the plan paid, and the member's remaining responsibility.
+Step 5: Claim Status
+Claims are marked as Approved, Denied, or Pending. Approved claims are paid according to the plan's coverage terms. Denied claims include a reason code and instructions for filing an appeal. Pending claims may require additional documentation from the member or provider.
+Step 6: Filing an Appeal
+If a claim is denied, members have 180 days from the date of the denial notice to file a written appeal. Appeals should include supporting documentation such as medical records or a letter from the treating physician.
