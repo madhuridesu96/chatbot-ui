@@ -17,7 +17,7 @@ os.makedirs("raw_text", exist_ok=True)
 
 # --- 1. Benefits PDF ---
 benefits_text = ""
-with pdfplumber.open("benefits.pdf") as pdf:
+with pdfplumber.open("CMS_Sample_Completed_SBC.pdf") as pdf:
     for page in pdf.pages:
         page_text = page.extract_text()
         if page_text:

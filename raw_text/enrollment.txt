@@ -6,9 +6,9 @@ Member Name: Jordan A. Sample
 
 Date of Birth: 05/14/1988
 
-Member ID: M1001
+Member ID: M-1001
 
-Selected Plan: Gold PPO (P101)
+Selected Plan: Gold PPO (PLN-001)
 
 Effective Date: 01/01/2026
 

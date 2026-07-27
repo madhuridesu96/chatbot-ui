@@ -1,27 +1,215 @@
-Summary of Benefits and Coverage (SBC) — Sample
-Health Plan
-Plan Overview
-This is a synthetic Summary of Benefits and Coverage document created for educational purposes
-only. It does not represent a real insurance plan or any real individual's coverage.
-Monthly Premium
-The monthly premium for this Gold PPO plan is $500. Premiums are subject to change annually based
-on plan renewal terms.
-Annual Deductible
-The annual deductible for this plan is $2,000 per individual. This is the amount a member must pay out
-of pocket before the plan begins covering most services.
-Copay Structure
-After the deductible is met, the member is responsible for a 10% copayment on most covered services.
-Preventive care visits are covered at 100% with no copay required.
-Out-of-Pocket Maximum
-The out-of-pocket maximum for this plan is $6,000 per individual per plan year. Once this limit is
-reached, the plan covers 100% of additional covered services for the remainder of the year.
-Network Tier
-This plan uses the Gold network tier, which includes access to a broad network of primary care
-physicians, specialists, and hospitals.
-Common Medical Events
-If you have an outpatient surgery: you may pay a $250 copay per visit for a physician/surgeon and 10%
-coinsurance for the facility fee. If you need mental health, behavioral health, or substance abuse
-services: you may pay a $30 copay per office visit.
-Prescription Drug Coverage
-Generic drugs: $10 copay. Preferred brand drugs: $35 copay. Non-preferred brand drugs: $60 copay.
-Specialty drugs: 20% coinsurance.
+Summary of Benefits and Coverage — CMS Public Sample +
+Training Variants
+Source: CMS.gov public "Sample Completed SBC" — official U.S. government example document. Original:
+https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/english-sample-completed-sbc-accessible-format-012825.pdf
+This document contains one REAL CMS official example (Plan 1, reproduced unedited) plus three additional plan variants
+built in the identical official format so students have multiple plans to compare, embed, and query — the same exercise
+real Marketplace shoppers face when comparing SBCs across insurers. Plans 2–4 are training material, not official CMS
+examples.
+Plan 1 — Insurance Company 1: Plan Option 1 | Coverage for: Family | Plan Type:
+PPO | Coverage Period: 01/01/2025 – 12/31/2025 (REAL CMS EXAMPLE)
+This section reproduces CMS's real, official public example (unedited).
+Important Question Answer
+What is the overall deductible? $500 / individual or $1,000 / family
+Are there services covered before you meet Yes. Preventive care and primary care services are covered before you meet
+your deductible? your deductible.
+Are there other deductibles for specific Yes. $300 for prescription drug coverage and $300 for occupational therapy
+services? services.
+What is the out-of-pocket limit for this plan? Network: $2,500 individual / $5,000 family. Out-of-network: $4,000 individual
+/ $8,000 family.
+What is not included in the out-of-pocket limit? Copayments for certain services, premiums, balance-billing charges, and
+health care this plan doesn't cover.
+Will you pay less if you use a network Yes. This plan uses a provider network; you pay the most for out-of-network
+provider? care.
+Do you need a referral to see a specialist? Yes, a referral is required before seeing a specialist for covered services.
+Common Medical Events & What You Pay (Network / Out-of-Network)
+Service Network Out-of-Network Notes
+Primary care visit $35 copay + 20% 40% coinsurance Deductible does not apply to copay
+coinsurance
+Specialist visit $50 copay/visit 40% coinsurance Preauthorization required
+Preventive care/screening No charge 40% coinsurance Must be a qualifying preventive
+service
+Diagnostic test (x-ray, blood $10 copay/test 40% coinsurance —
+work)
+Imaging (CT/PET/MRI) $50 copay/test 40% coinsurance —
+Generic drugs (Tier 1) $10 copay 40% coinsurance Up to 30-day supply retail
+Preferred brand drugs (Tier 2) $30 copay 40% coinsurance —
+Non-preferred brand drugs (Tier 40% coinsurance 60% coinsurance —
+3)
+Specialty drugs (Tier 4) 50% coinsurance 70% coinsurance —
+Outpatient facility fee $100/day copay 40% coinsurance Preauthorization required
+Emergency room care 20% coinsurance 20% coinsurance Same cost in/out of network
+Urgent care $30 copay/visit 40% coinsurance —
+Hospital facility fee 20% coinsurance 40% coinsurance Preauthorization required
+Mental/behavioral health $35 copay + 20% 40% coinsurance —
+outpatient coinsurance
+Mental/behavioral health 20% coinsurance 40% coinsurance —
+inpatient
+Pregnancy office visits 20% coinsurance 40% coinsurance Cost sharing doesn't apply to
+preventive portion
+Childbirth/delivery (professional) 20% coinsurance 40% coinsurance —
+Childbirth/delivery (facility) 20% coinsurance 40% coinsurance —
+Home health care 20% coinsurance 40% coinsurance 60 visits/year
+Rehabilitation services 20% coinsurance 40% coinsurance 60 visits/year; PT, speech, OT
+Skilled nursing care 20% coinsurance 40% coinsurance 60 visits/calendar year
+Durable medical equipment 20% coinsurance 40% coinsurance Excludes home/vehicle
+modifications
+Hospice services 20% coinsurance 40% coinsurance Preauthorization required
+Children's eye exam $35 copay/visit Not covered Limited to 1 exam/year
+Children's glasses 20% coinsurance Not covered Limited to 1 pair/year
+Children's dental check-up No charge Not covered —
+Excluded Services: Cosmetic surgery, dental care (adult), infertility treatment, long-term care, non-emergency care while
+traveling outside the U.S., private-duty nursing, routine eye care (adult), routine foot care.
+Other Covered Services (limitations may apply): Acupuncture (if prescribed for rehabilitation), bariatric surgery,
+chiropractic care, hearing aids, weight loss programs.
+Coverage Examples (deductible $500, specialist copay $50, hospital coinsurance 20%, other coinsurance 20%)
+Scenario Total Cost Deductibles Copayments Coinsurance Not Covered Patient Pays
+Peg is Having a Baby (9 months $12,700 $500 $200 $1,800 $60 $2,560
+prenatal + hospital delivery)
+Managing Joe's Type 2 Diabetes (1 year $5,600 $800 $900 $100 $20 $1,820
+routine care)
+Mia's Simple Fracture (ER visit + $2,800 $500 $200 $400 $0 $1,100
+follow-up)
+Plan 2 — Sample Coverage Co.: Bronze Saver HMO | Coverage for: Individual | Plan
+Type: HMO | Coverage Period: 01/01/2026 – 12/31/2026 (aligned to PLN-002)
+Additional training variant — modeled in the identical official SBC format for comparison exercises; not an official CMS example. Aligned to the
+matching plan in structured/plans.csv.
+Important Question Answer
+What is the overall deductible? $7,000 individual
+Are there services covered before you meet Yes. Preventive care is covered at no charge before the deductible.
+your deductible?
+Are there other deductibles for specific No separate deductibles for specific services.
+services?
+What is the out-of-pocket limit for this plan? Network: $9,000 individual. This plan does not cover out-of-network care
+except emergencies.
+What is not included in the out-of-pocket limit? Premiums, balance-billing charges, and health care this plan doesn't cover.
+Will you pay less if you use a network Yes — this HMO generally does not cover out-of-network care except in an
+provider? emergency.
+Do you need a referral to see a specialist? Yes, a referral from your primary care provider is required.
+Common Medical Events & What You Pay (Network / Out-of-Network)
+Service Network Out-of-Network Notes
+Primary care visit $35 copay Not covered —
+Specialist visit $75 copay/visit Not covered Referral required
+Preventive care/screening No charge Not covered —
+Diagnostic test (x-ray, blood 40% coinsurance Not covered After deductible
+work)
+Imaging (CT/PET/MRI) 40% coinsurance Not covered Preauthorization required
+Generic drugs (Tier 1) $15 copay Not covered Up to 30-day supply retail
+Preferred brand drugs (Tier 2) $45 copay Not covered —
+Emergency room care 40% coinsurance 40% coinsurance Covered as network cost in true
+emergency
+Urgent care $50 copay/visit Not covered —
+Hospital facility fee 40% coinsurance Not covered Preauthorization required
+Mental/behavioral health $35 copay Not covered —
+outpatient
+Rehabilitation services 40% coinsurance Not covered 20 visits/year combined
+Excluded Services: Cosmetic surgery, adult dental and eye care, infertility treatment, long-term custodial care, any
+non-emergency out-of-network care, maternity coverage (not included on this plan tier).
+Other Covered Services (limitations may apply): Chiropractic care (limited), hearing aids for children.
+Coverage Examples (deductible $7,000, primary care copay $35, no coinsurance until deductible is met)
+Scenario Total Cost Deductibles Copayments Coinsurance Not Covered Patient Pays
+Mia's Simple Fracture (ER visit + $2,800 $1,900 $50 $0 $0 $1,950
+follow-up)
+Managing Joe's Type 2 Diabetes (1 year $5,600 $4,600 $180 $0 $40 $4,820
+routine care)
+Plan 3 — Sample Coverage Co.: Silver Select PPO | Coverage for: Family | Plan
+Type: PPO | Coverage Period: 01/01/2026 – 12/31/2026 (aligned to PLN-003)
+Additional training variant — modeled in the identical official SBC format for comparison exercises; not an official CMS example. Aligned to the
+matching plan in structured/plans.csv.
+Important Question Answer
+What is the overall deductible? $4,000 individual / $8,000 family
+Are there services covered before you meet Yes. Preventive care and primary care visits are covered before the
+your deductible? deductible.
+Are there other deductibles for specific Yes. $250 for prescription drug coverage.
+services?
+What is the out-of-pocket limit for this plan? Network: $7,000 individual / $14,000 family. Out-of-network: $12,000
+individual / $24,000 family.
+What is not included in the out-of-pocket limit? Premiums, balance-billing charges, and health care this plan doesn't cover.
+Will you pay less if you use a network Yes. You pay significantly more for out-of-network care.
+provider?
+Do you need a referral to see a specialist? No, this PPO does not require referrals.
+Common Medical Events & What You Pay (Network / Out-of-Network)
+Service Network Out-of-Network Notes
+Primary care visit $30 copay 40% coinsurance —
+Specialist visit $60 copay/visit 40% coinsurance —
+Preventive care/screening No charge 40% coinsurance —
+Diagnostic test (x-ray, blood 30% coinsurance 50% coinsurance After deductible
+work)
+Imaging (CT/PET/MRI) 30% coinsurance 50% coinsurance Preauthorization required
+Generic drugs (Tier 1) $12 copay 50% coinsurance —
+Preferred brand drugs (Tier 2) $40 copay 50% coinsurance —
+Emergency room care 30% coinsurance 30% coinsurance Same cost in/out of network
+Urgent care $40 copay/visit 50% coinsurance —
+Hospital facility fee 30% coinsurance 50% coinsurance Preauthorization required
+Pregnancy office visits 30% coinsurance 50% coinsurance 90-day waiting period from
+enrollment
+Childbirth/delivery (facility) 30% coinsurance 50% coinsurance —
+Rehabilitation services 30% coinsurance 50% coinsurance 20 visits/year combined
+Mental/behavioral health $30 copay 40% coinsurance —
+outpatient
+Excluded Services: Cosmetic surgery, adult dental and routine eye care, infertility treatment beyond diagnostic workup,
+long-term custodial care, weight-loss programs unless preauthorized.
+Other Covered Services (limitations may apply): Acupuncture (if prescribed), bariatric surgery (if preauthorized),
+maternity (after 90-day wait).
+Coverage Examples (deductible $4,000, specialist copay $60, coinsurance 30% after deductible)
+Scenario Total Cost Deductibles Copayments Coinsurance Not Covered Patient Pays
+Peg is Having a Baby (9 months $12,700 $4,000 $240 $2,200 $80 $6,520
+prenatal + hospital delivery)
+Mia's Simple Fracture (ER visit + $2,800 $2,300 $40 $150 $0 $2,490
+follow-up)
+Plan 4 — Sample Coverage Co.: Platinum Premier PPO | Coverage for: Family |
+Plan Type: PPO | Coverage Period: 01/01/2026 – 12/31/2026 (aligned to PLN-009)
+Additional training variant — modeled in the identical official SBC format for comparison exercises; not an official CMS example. Aligned to the
+matching plan in structured/plans.csv.
+Important Question Answer
+What is the overall deductible? $500 individual / $1,000 family
+Are there services covered before you meet Yes. Preventive care, primary care, and specialist visits are covered before
+your deductible? the deductible.
+Are there other deductibles for specific No separate deductibles for specific services.
+services?
+What is the out-of-pocket limit for this plan? Network: $3,000 individual / $6,000 family. Out-of-network: $6,000 individual
+/ $12,000 family.
+What is not included in the out-of-pocket limit? Premiums, balance-billing charges, and health care this plan doesn't cover.
+Will you pay less if you use a network Yes, though out-of-network cost sharing is more moderate than lower-tier
+provider? plans.
+Do you need a referral to see a specialist? No, this PPO does not require referrals.
+Common Medical Events & What You Pay (Network / Out-of-Network)
+Service Network Out-of-Network Notes
+Primary care visit $10 copay 20% coinsurance —
+Specialist visit $25 copay/visit 20% coinsurance —
+Preventive care/screening No charge 20% coinsurance —
+Diagnostic test (x-ray, blood 10% coinsurance 25% coinsurance After deductible
+work)
+Imaging (CT/PET/MRI) 10% coinsurance 25% coinsurance Preauthorization required
+Generic drugs (Tier 1) $5 copay 25% coinsurance —
+Preferred brand drugs (Tier 2) $20 copay 25% coinsurance —
+Emergency room care 10% coinsurance 10% coinsurance Same cost in/out of network
+Urgent care $15 copay/visit 25% coinsurance —
+Hospital facility fee 10% coinsurance 25% coinsurance Preauthorization required
+Pregnancy office visits 10% coinsurance 25% coinsurance No waiting period
+Childbirth/delivery (facility) 10% coinsurance 25% coinsurance —
+Rehabilitation services 10% coinsurance 25% coinsurance 30 visits/year combined
+Mental/behavioral health $10 copay 20% coinsurance —
+outpatient
+Children's dental check-up No charge 20% coinsurance —
+Excluded Services: Cosmetic surgery, long-term custodial care, non-emergency care outside the U.S. without prior
+authorization, weight-loss programs unless preauthorized.
+Other Covered Services (limitations may apply): Acupuncture, bariatric surgery (if preauthorized), adult dental and
+vision (limited allowance), fertility diagnostic workup.
+Coverage Examples (deductible $500, specialist copay $25, coinsurance 10% after deductible)
+Scenario Total Cost Deductibles Copayments Coinsurance Not Covered Patient Pays
+Peg is Having a Baby (9 months $12,700 $500 $150 $700 $0 $1,350
+prenatal + hospital delivery)
+Managing Joe's Type 2 Diabetes (1 year $5,600 $500 $220 $300 $0 $1,020
+routine care)
+Mia's Simple Fracture (ER visit + $2,800 $500 $60 $150 $0 $710
+follow-up)
+Plan Comparison Summary (all 4 plans)
+Plan Tier Deductible (indiv) OOP Max (indiv) PCP Copay Specialist Copay Coinsurance
+Plan 1 — Plan Option 1 (real Gold-equiv. $500 $2,500 $35 $50 20%
+CMS example)
+Plan 2 — Bronze Saver HMO Bronze $7,000 $9,000 $35 $75 40%
+Plan 3 — Silver Select PPO Silver $4,000 $7,000 $30 $60 30%
+Plan 4 — Platinum Premier PPO Platinum $500 $3,000 $10 $25 10%
+Source: CMS.gov public "Sample Completed SBC" — official U.S. government example document. Original:
+https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/english-sample-completed-sbc-accessible-format-012825.pdf

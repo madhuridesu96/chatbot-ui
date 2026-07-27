@@ -4,10 +4,9 @@ from PIL import Image
 import pdfplumber
 from docx import Document
 
-# --- Extract from benefits.pdf using pdfplumber ---
-print("=== EXTRACTING FROM benefits.pdf ===")
+print("=== EXTRACTING FROM CMS_Sample_Completed_SBC.pdf ===")
 benefits_text = ""
-with pdfplumber.open("benefits.pdf") as pdf:
+with pdfplumber.open("CMS_Sample_Completed_SBC.pdf") as pdf:
     for page in pdf.pages:
         page_text = page.extract_text()
         if page_text:

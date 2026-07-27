@@ -1,4 +1,38 @@
-plan_id,plan_name,monthly_premium,annual_deductible,copay_pct,coverage_type,network_tier
-P101,Gold PPO,500,2000,10,PPO,Gold
-P102,Silver HMO,300,1500,20,HMO,Silver
-P103,Bronze HMO,150,1000,30,HMO,Bronze
+plan_id,plan_name,tier,network_type,monthly_premium,annual_deductible,out_of_pocket_max,copay_primary_care,copay_specialist,coinsurance_pct,covers_maternity,covers_mental_health,covers_physical_therapy,covers_dental
+
+PLN-001,Bronze Basic PPO,Bronze,PPO,289.0,6500,8700,45,90,40,No,Yes,No,No
+
+PLN-002,Bronze Saver HMO,Bronze,HMO,245.0,7000,9000,35,75,40,No,Yes,No,No
+
+PLN-003,Silver Select PPO,Silver,PPO,379.0,4000,7000,30,60,30,Yes,Yes,Yes,No
+
+PLN-004,Silver Value HMO,Silver,HMO,349.0,4200,7200,25,50,30,Yes,Yes,Yes,No
+
+PLN-005,Silver Plus EPO,Silver,EPO,399.0,3800,6800,25,55,25,Yes,Yes,Yes,Yes
+
+PLN-006,Gold Complete PPO,Gold,PPO,489.0,1500,5000,20,40,20,Yes,Yes,Yes,Yes
+
+PLN-007,Gold Advantage HMO,Gold,HMO,459.0,1750,5200,15,35,20,Yes,Yes,Yes,Yes
+
+PLN-008,Gold Flex EPO,Gold,EPO,499.0,1600,5100,20,40,15,Yes,Yes,Yes,Yes
+
+PLN-009,Platinum Premier PPO,Platinum,PPO,649.0,500,3000,10,25,10,Yes,Yes,Yes,Yes
+
+PLN-010,Platinum Elite HMO,Platinum,HMO,599.0,750,3200,10,20,10,Yes,Yes,Yes,Yes
+
+PLN-011,Bronze Basic HMO Jr,Bronze,HMO,199.0,7500,9500,40,80,40,No,No,No,No
+
+PLN-012,Silver Balance PPO,Silver,PPO,365.0,4100,7100,30,60,30,Yes,Yes,No,No
+
+PLN-013,Gold Family PPO,Gold,PPO,559.0,1400,4800,20,40,20,Yes,Yes,Yes,Yes
+
+PLN-014,Platinum Family HMO,Platinum,HMO,689.0,400,2800,10,20,5,Yes,Yes,Yes,Yes
+
+PLN-015,Silver Senior EPO,Silver,EPO,410.0,3600,6600,20,50,25,No,Yes,Yes,No
+
+PLN-016,Bronze Flex EPO,Bronze,EPO,275.0,6800,8900,40,85,40,No,Yes,No,No
+
+PLN-017,Gold Senior PPO,Gold,PPO,519.0,1550,5050,15,35,20,No,Yes,Yes,Yes
+
+PLN-018,Platinum Complete PPO,Platinum,PPO,669.0,450,2900,10,20,5,Yes,Yes,Yes,Yes
+
