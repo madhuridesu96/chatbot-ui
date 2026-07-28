@@ -1,0 +1,93 @@
+[
+  {
+    "question": "What's my copay?",
+    "classification": "structured",
+    "context": [
+      "[SQL] No matching structured data found."
+    ]
+  },
+  {
+    "question": "Is maternity care covered on the Bronze Saver HMO plan?",
+    "classification": "unstructured",
+    "context": [
+      "[VECTOR - Bronze Saver HMO/coverage] Bronze Saver HMO (Bronze tier, HMO): $245.0/month premium, $7000 deductible, $9000 out-of-pocket max, $35 primary care copay, $75 specialist copay, 40",
+      "[VECTOR - none/coverage] prenatal + hospital delivery)\nManaging Joe's Type 2 Diabetes (1 year $5,600 $800 $900 $100 $20 $1,820\nroutine care)\nMia's Simple Fracture (ER visit + ",
+      "[VECTOR - none/coverage] prenatal + hospital delivery)\nManaging Joe's Type 2 Diabetes (1 year $5,600 $500 $220 $300 $0 $1,020\nroutine care)\nMia's Simple Fracture (ER visit + $",
+      "[VECTOR - Bronze Basic HMO Jr/coverage] Bronze Basic HMO Jr (Bronze tier, HMO): $199.0/month premium, $7500 deductible, $9500 out-of-pocket max, $40 primary care copay, $80 specialist copay,",
+      "[VECTOR - Silver Value HMO/coverage] Silver Value HMO (Silver tier, HMO): $349.0/month premium, $4200 deductible, $7200 out-of-pocket max, $25 primary care copay, $50 specialist copay, 30"
+    ]
+  },
+  {
+    "question": "What's the status of claim C-2003?",
+    "classification": "structured",
+    "context": [
+      "[SQL] Claim C-2003 (member M-1032, plan PLN-016): Physical Therapy Session, $117.9, status: Denied"
+    ]
+  },
+  {
+    "question": "Is dental coverage included on the Platinum Premier PPO plan?",
+    "classification": "unstructured",
+    "context": [
+      "[VECTOR - Platinum Premier PPO/coverage] Platinum Premier PPO (Platinum tier, PPO): $649.0/month premium, $500 deductible, $3000 out-of-pocket max, $10 primary care copay, $25 specialist copa",
+      "[VECTOR - Platinum Complete PPO/coverage] Platinum Complete PPO (Platinum tier, PPO): $669.0/month premium, $450 deductible, $2900 out-of-pocket max, $10 primary care copay, $20 specialist cop",
+      "[VECTOR - Gold Complete PPO/coverage] Gold Complete PPO (Gold tier, PPO): $489.0/month premium, $1500 deductible, $5000 out-of-pocket max, $20 primary care copay, $40 specialist copay, 20%",
+      "[VECTOR - Silver Select PPO/coverage] Silver Select PPO (Silver tier, PPO): $379.0/month premium, $4000 deductible, $7000 out-of-pocket max, $30 primary care copay, $60 specialist copay, 3",
+      "[VECTOR - none/coverage] Scenario Total Cost Deductibles Copayments Coinsurance Not Covered Patient Pays\nPeg is Having a Baby (9 months $12,700 $4,000 $240 $2,200 $80 $6,520\np"
+    ]
+  },
+  {
+    "question": "How many claims are pending for member M-1004?",
+    "classification": "structured",
+    "context": [
+      "[SQL] Member M-1004 has 0 pending claim(s)."
+    ]
+  },
+  {
+    "question": "What is excluded under the Silver Select PPO plan?",
+    "classification": "unstructured",
+    "context": [
+      "[VECTOR - Silver Select PPO/coverage] Silver Select PPO (Silver tier, PPO): $379.0/month premium, $4000 deductible, $7000 out-of-pocket max, $30 primary care copay, $60 specialist copay, 3",
+      "[VECTOR - none/coverage] Plan 3 \u2014 Silver Select PPO Silver $4,000 $7,000 $30 $60 30%\nPlan 4 \u2014 Platinum Premier PPO Platinum $500 $3,000 $10 $25 10%\nSource: CMS.gov public \"Sam",
+      "[VECTOR - Silver Balance PPO/coverage] Silver Balance PPO (Silver tier, PPO): $365.0/month premium, $4100 deductible, $7100 out-of-pocket max, $30 primary care copay, $60 specialist copay, ",
+      "[VECTOR - Gold Complete PPO/coverage] Gold Complete PPO (Gold tier, PPO): $489.0/month premium, $1500 deductible, $5000 out-of-pocket max, $20 primary care copay, $40 specialist copay, 20%",
+      "[VECTOR - Gold Family PPO/coverage] Gold Family PPO (Gold tier, PPO): $559.0/month premium, $1400 deductible, $4800 out-of-pocket max, $20 primary care copay, $40 specialist copay, 20% c"
+    ]
+  },
+  {
+    "question": "Which plans have a monthly premium under $300?",
+    "classification": "structured",
+    "context": [
+      "[SQL] No matching structured data found."
+    ]
+  },
+  {
+    "question": "Is physical therapy covered, and what's the deductible on Gold Complete PPO?",
+    "classification": "both",
+    "context": [
+      "[SQL] Gold Complete PPO: $489.0/month premium, $1500 deductible, $20 primary care copay, $40 specialist copay, 20% coinsurance, network: PPO",
+      "[VECTOR - Gold Complete PPO/coverage] Gold Complete PPO (Gold tier, PPO): $489.0/month premium, $1500 deductible, $5000 out-of-pocket max, $20 primary care copay, $40 specialist copay, 20%",
+      "[VECTOR - Gold Senior PPO/coverage] Gold Senior PPO (Gold tier, PPO): $519.0/month premium, $1550 deductible, $5050 out-of-pocket max, $15 primary care copay, $35 specialist copay, 20% c",
+      "[VECTOR - Gold Family PPO/coverage] Gold Family PPO (Gold tier, PPO): $559.0/month premium, $1400 deductible, $4800 out-of-pocket max, $20 primary care copay, $40 specialist copay, 20% c",
+      "[VECTOR - Platinum Complete PPO/coverage] Platinum Complete PPO (Platinum tier, PPO): $669.0/month premium, $450 deductible, $2900 out-of-pocket max, $10 primary care copay, $20 specialist cop",
+      "[VECTOR - Bronze Basic PPO/coverage] Bronze Basic PPO (Bronze tier, PPO): $289.0/month premium, $6500 deductible, $8700 out-of-pocket max, $45 primary care copay, $90 specialist copay, 40"
+    ]
+  },
+  {
+    "question": "What's the claims appeal process?",
+    "classification": "unstructured",
+    "context": [
+      "[VECTOR - none/claims] Step 6: Filing an Appeal\nIf a claim is denied, members have 180 days from the date of the denial notice to file a written appeal. Appeals should inclu",
+      "[VECTOR - none/claims] Step 5: Claim Status\nClaims are marked as Approved, Denied, or Pending. Approved claims are paid according to the plan's coverage terms. Denied claims",
+      "[VECTOR - none/claims] How to File a Claim \u2014 Sample Process Guide\nThis document is a synthetic, educational example describing a generic health insurance claims process. It ",
+      "[VECTOR - none/claims] Step 2: Provider Submits the Claim\nIn most cases, your healthcare provider will submit the claim directly to the insurance plan on your behalf. This t",
+      "[VECTOR - none/claims] Step 4: Explanation of Benefits (EOB)\nOnce processed, the member receives an Explanation of Benefits (EOB) showing the billed amount, the plan's allow"
+    ]
+  },
+  {
+    "question": "What's the out-of-pocket max on Bronze Basic PPO?",
+    "classification": "structured",
+    "context": [
+      "[SQL] Bronze Basic PPO: $289.0/month premium, $6500 deductible, $45 primary care copay, $90 specialist copay, 40% coinsurance, network: PPO"
+    ]
+  }
+]
