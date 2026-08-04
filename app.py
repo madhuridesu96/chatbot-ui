@@ -1,14 +1,14 @@
 import streamlit as st
 import requests
 import uuid
+import json
 import pandas as pd
 
-API_URL = "http://127.0.0.1:8001/chat"
+API_URL = "http://127.0.0.1:8001/chat/stream"
 
 st.set_page_config(page_title="Coverage Assistant", page_icon="💬")
 
 # ---------- Session state setup ----------
-
 if "session_id" not in st.session_state:
     st.session_state.session_id = str(uuid.uuid4())
 
@@ -16,7 +16,6 @@ if "messages" not in st.session_state:
     st.session_state.messages = []
 
 # ---------- Sidebar ----------
-
 with st.sidebar:
     st.header("Plan Selector")
     try:
@@ -38,7 +37,6 @@ with st.sidebar:
     st.caption(f"Session ID: `{st.session_state.session_id[:8]}...`")
 
 # ---------- Main chat area ----------
-
 st.title("💬 Coverage Assistant")
 st.caption("Ask about deductibles, coverage, claims, and more.")
 
@@ -56,10 +54,14 @@ if user_input:
     with st.chat_message("user"):
         st.write(user_input)
 
-    # Call the backend
+    # ---------- Streaming assistant response ----------
     with st.chat_message("assistant"):
-        with st.spinner("Thinking..."):
-            try:
+        placeholder = st.empty()
+        full_response = ""
+        first_token_received = False
+
+        try:
+            with st.spinner("Thinking..."):
                 response = requests.post(
                     API_URL,
                     json={
@@ -67,16 +69,36 @@ if user_input:
                         "member_id": "M-1004",
                         "message": user_input,
                     },
+                    stream=True,
                     timeout=30,
                 )
-                data = response.json()
-                if "error" in data:
-                    answer = f"⚠️ {data['error']}"
-                else:
-                    answer = data.get("answer", "No answer received.")
-            except requests.exceptions.RequestException as e:
-                answer = f"⚠️ Could not reach the backend: {e}"
 
-        st.write(answer)
+                for line in response.iter_lines():
+                    if line:
+                        decoded = line.decode("utf-8")
+                        if decoded.startswith("data: "):
+                            payload = json.loads(decoded[6:])
 
-    st.session_state.messages.append({"role": "assistant", "content": answer})
+                            if "token" in payload:
+                                full_response += payload["token"]
+                                placeholder.write(full_response + "▌")
+                                first_token_received = True
+
+                            elif "error" in payload:
+                                full_response = f"⚠️ {payload['error']}"
+                                placeholder.write(full_response)
+                                break
+
+                            elif payload.get("done"):
+                                break
+
+            placeholder.write(full_response)
+
+        except requests.exceptions.Timeout:
+            full_response = "⚠️ The response took too long. Please try again."
+            placeholder.write(full_response)
+        except requests.exceptions.RequestException as e:
+            full_response = f"⚠️ Could not reach the backend: {e}"
+            placeholder.write(full_response)
+
+    st.session_state.messages.append({"role": "assistant", "content": full_response}) 
