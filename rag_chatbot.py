@@ -24,7 +24,9 @@ def generate_answer(question, context):
         model="llama3.1",
         messages=[{"role": "user", "content": prompt}],
     )
-    return response.choices[0].message.content
+    answer = response.choices[0].message.content
+    return answer, (chunk_ids or [])
+
 def generate_answer_streaming(question, context):
     """Same as generate_answer, but streams tokens as they arrive."""
     context_text = "\n".join(context) if isinstance(context, list) else str(context)

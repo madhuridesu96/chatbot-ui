@@ -92,13 +92,14 @@ def sql_lookup(question):
 def vector_lookup(question, n_results=5):
     query_embedding = model.encode(question).tolist()
     results = collection.query(query_embeddings=[query_embedding], n_results=n_results)
-    return list(zip(results["documents"][0], results["metadatas"][0]))
+    return list(zip(results["ids"][0], results["documents"][0], results["metadatas"][0]))
 
 # ---------- STEP 4: retrieve (the router) ----------
 
 def retrieve(question):
     classification = classify(question)
     context = []
+    chunk_ids = []
 
     if classification in ("structured", "both"):
         sql_results = sql_lookup(question)
@@ -106,15 +107,17 @@ def retrieve(question):
 
     if classification in ("unstructured", "both"):
         vector_results = vector_lookup(question)
-        for doc, meta in vector_results:
+        for chunk_id, doc, meta in vector_results:
             entry = f"[VECTOR - {meta.get('plan_type', 'none')}/{meta.get('section', '?')}] {doc[:150]}"
             if entry not in context:
                 context.append(entry)
+                chunk_ids.append(chunk_id)
 
     return {
         "question": question,
         "classification": classification,
         "context": context,
+        "chunk_ids": chunk_ids,
     }
 
 if __name__ == "__main__":

@@ -131,7 +131,7 @@ def stream_chat_response(session_id, member_id, message):
         save_turn(session_id, member_id, "assistant", full_answer)
         elapsed = round(time.time() - start_time, 3)
         print(f"[TIMING] session={session_id} elapsed={elapsed}s classification={retrieved['classification']}")
-        yield f"data: {json.dumps({'done': True})}\n\n"
+        yield f"data: {json.dumps({'done': True, 'chunk_ids': retrieved.get('chunk_ids', [])})}\n\n"
 
     except Exception as e:
         elapsed = round(time.time() - start_time, 3)
